@@ -6,7 +6,7 @@ import Navbar from "../../components/Navbar";
 import DrinkDetail from "../../components/DrinkDetail";
 import { useRouter } from "next/router";
 
-const detail = () => {
+const Detail = () => {
   const [drink, setDrink] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -50,4 +50,4 @@ const detail = () => {
   );
 };
 
-export default detail;
+export default Detail;
