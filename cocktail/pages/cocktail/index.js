@@ -41,6 +41,7 @@ export default function Cocktail() {
       </Head>
 
       <Navbar />
+
       <input
         type="text"
         name="cocktails"
@@ -54,8 +55,8 @@ export default function Cocktail() {
         {drink !== null ? <Drinks drinksData={drink} /> : "There is no result for keyword, please try another keyword!"}
       </main>
 
-      <footer className="bg-green-800">
-        <p className="font-semibold pb-8 text-xl text-white">Made Using Next JS By Wildan</p>
+      <footer className="bg-green-600">
+        <p className="font-semibold py-8 text-xl text-white text-center">Made Using Next JS By Wildan</p>
       </footer>
     </div>
   );
