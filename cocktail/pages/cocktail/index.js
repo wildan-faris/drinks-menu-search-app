@@ -46,7 +46,7 @@ export default function Cocktail() {
         type="text"
         name="cocktails"
         onChange={handleChange}
-        placeholder="Search Cocktails you want..."
+        placeholder="Search Drinks you want..."
         className="w-3/6 md:w-2/3 lg:w-10/12 block px-4 py-3 mt-8 mx-auto text-base border border-green-600 rounded outline-none  focus:ring-green-600 focus:border-blue-500 focus:ring-1"
       />
       <main className="bg-green-800">
