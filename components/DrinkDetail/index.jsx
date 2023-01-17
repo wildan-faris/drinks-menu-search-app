@@ -32,7 +32,7 @@ const DrinkDetail = ({ drinksData }) => {
             {data.strIngredient10 ? <p className="text-md text-start font-normal italic leading-relaxed">10. {data.strIngredient10}</p> : ""}
             {data.strIngredient11 ? <p className="text-md text-start font-normal italic leading-relaxed">11. {data.strIngredient11}</p> : ""}
             {data.strIngredient12 ? <p className="text-md text-start font-normal italic leading-relaxed">12. {data.strIngredient12}</p> : ""}
-
+            {data.strIngredient13 ? <p className="text-md text-start font-normal italic leading-relaxed">13. {data.strIngredient13}</p> : ""}
             <p className="text-md text-start font-semibold italic leading-relaxed">Measure : </p>
 
             {data.strMeasure1 ? <p className="text-md text-start font-normal italic leading-relaxed">{data.strMeasure1}</p> : ""}
